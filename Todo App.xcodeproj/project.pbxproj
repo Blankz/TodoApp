@@ -3,27 +3,90 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740FF5DF25C469AD00B01FB8 /* InputTextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF5DE25C469AD00B01FB8 /* InputTextfieldView.swift */; };
+		740FF5E325C469EF00B01FB8 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 740FF5E225C469EF00B01FB8 /* IQKeyboardManagerSwift */; };
+		740FF5E725C46E4E00B01FB8 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF5E625C46E4E00B01FB8 /* UIView+Constraints.swift */; };
+		740FF5EA25C46F5800B01FB8 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF5E925C46F5800B01FB8 /* ScrollView.swift */; };
+		740FF60F25C47CA100B01FB8 /* PaddingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF60E25C47CA100B01FB8 /* PaddingTextfield.swift */; };
+		740FF61325C4811400B01FB8 /* AppDelegate+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF61225C4811400B01FB8 /* AppDelegate+Keyboard.swift */; };
+		740FF61725C516DD00B01FB8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF61625C516DD00B01FB8 /* Service.swift */; };
+		740FF61B25C52E5600B01FB8 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 740FF61A25C52E5600B01FB8 /* KeychainAccess */; };
+		740FF62525C53EA400B01FB8 /* KeychainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF62425C53EA400B01FB8 /* KeychainAccess.swift */; };
+		740FF63125C545C200B01FB8 /* TodoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF62B25C545C200B01FB8 /* TodoListPresenter.swift */; };
+		740FF63225C545C200B01FB8 /* TodoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF62C25C545C200B01FB8 /* TodoListRouter.swift */; };
+		740FF63325C545C200B01FB8 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF62D25C545C200B01FB8 /* TodoListViewController.swift */; };
+		740FF63425C545C200B01FB8 /* TodoListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF62E25C545C200B01FB8 /* TodoListProtocols.swift */; };
+		740FF63525C545C200B01FB8 /* TodoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF62F25C545C200B01FB8 /* TodoListInteractor.swift */; };
+		740FF63625C545C200B01FB8 /* TodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF63025C545C200B01FB8 /* TodoListItem.swift */; };
+		740FF63C25C54C6600B01FB8 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF63B25C54C6600B01FB8 /* NVActivityIndicatorView.swift */; };
+		740FF63F25C54CEE00B01FB8 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF63E25C54CEE00B01FB8 /* Loading.swift */; };
+		740FF64325C54EE400B01FB8 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF64225C54EE400B01FB8 /* UIViewController+Alert.swift */; };
+		740FF65025C56BA300B01FB8 /* TodoDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF64A25C56BA300B01FB8 /* TodoDetailPresenter.swift */; };
+		740FF65125C56BA300B01FB8 /* TodoDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF64B25C56BA300B01FB8 /* TodoDetailRouter.swift */; };
+		740FF65225C56BA300B01FB8 /* TodoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF64C25C56BA300B01FB8 /* TodoDetailViewController.swift */; };
+		740FF65325C56BA300B01FB8 /* TodoDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF64D25C56BA300B01FB8 /* TodoDetailProtocols.swift */; };
+		740FF65425C56BA300B01FB8 /* TodoDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF64E25C56BA300B01FB8 /* TodoDetailInteractor.swift */; };
+		740FF65525C56BA300B01FB8 /* TodoDetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF64F25C56BA300B01FB8 /* TodoDetailItem.swift */; };
+		740FF65A25C5725500B01FB8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF65925C5725500B01FB8 /* Date.swift */; };
+		740FF65D25C578BA00B01FB8 /* InputCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF65C25C578BA00B01FB8 /* InputCheckboxView.swift */; };
+		740FF66125C5B57B00B01FB8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FF66025C5B57B00B01FB8 /* String.swift */; };
 		745BA73325C30E2A00AB374B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA73225C30E2A00AB374B /* AppDelegate.swift */; };
 		745BA73525C30E2A00AB374B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA73425C30E2A00AB374B /* SceneDelegate.swift */; };
-		745BA73725C30E2A00AB374B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA73625C30E2A00AB374B /* ViewController.swift */; };
-		745BA73A25C30E2A00AB374B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745BA73825C30E2A00AB374B /* Main.storyboard */; };
 		745BA73C25C30E2B00AB374B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745BA73B25C30E2B00AB374B /* Assets.xcassets */; };
 		745BA73F25C30E2B00AB374B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745BA73D25C30E2B00AB374B /* LaunchScreen.storyboard */; };
+		745BA74F25C3119700AB374B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 745BA74E25C3119700AB374B /* Alamofire */; };
+		745BA76725C3123C00AB374B /* LandingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA76125C3123C00AB374B /* LandingPresenter.swift */; };
+		745BA76825C3123C00AB374B /* LandingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA76225C3123C00AB374B /* LandingRouter.swift */; };
+		745BA76925C3123C00AB374B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA76325C3123C00AB374B /* LandingViewController.swift */; };
+		745BA76A25C3123C00AB374B /* LandingProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA76425C3123C00AB374B /* LandingProtocols.swift */; };
+		745BA76B25C3123C00AB374B /* LandingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA76525C3123C00AB374B /* LandingInteractor.swift */; };
+		745BA76C25C3123C00AB374B /* LandingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BA76625C3123C00AB374B /* LandingItem.swift */; };
+		7487365025C3161300F94DCE /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7487364F25C3161300F94DCE /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		740FF5DE25C469AD00B01FB8 /* InputTextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextfieldView.swift; sourceTree = "<group>"; };
+		740FF5E625C46E4E00B01FB8 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		740FF5E925C46F5800B01FB8 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		740FF60E25C47CA100B01FB8 /* PaddingTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextfield.swift; sourceTree = "<group>"; };
+		740FF61225C4811400B01FB8 /* AppDelegate+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Keyboard.swift"; sourceTree = "<group>"; };
+		740FF61625C516DD00B01FB8 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		740FF62425C53EA400B01FB8 /* KeychainAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccess.swift; sourceTree = "<group>"; };
+		740FF62B25C545C200B01FB8 /* TodoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListPresenter.swift; sourceTree = "<group>"; };
+		740FF62C25C545C200B01FB8 /* TodoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListRouter.swift; sourceTree = "<group>"; };
+		740FF62D25C545C200B01FB8 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		740FF62E25C545C200B01FB8 /* TodoListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListProtocols.swift; sourceTree = "<group>"; };
+		740FF62F25C545C200B01FB8 /* TodoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListInteractor.swift; sourceTree = "<group>"; };
+		740FF63025C545C200B01FB8 /* TodoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItem.swift; sourceTree = "<group>"; };
+		740FF63B25C54C6600B01FB8 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		740FF63E25C54CEE00B01FB8 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		740FF64225C54EE400B01FB8 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		740FF64A25C56BA300B01FB8 /* TodoDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailPresenter.swift; sourceTree = "<group>"; };
+		740FF64B25C56BA300B01FB8 /* TodoDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailRouter.swift; sourceTree = "<group>"; };
+		740FF64C25C56BA300B01FB8 /* TodoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailViewController.swift; sourceTree = "<group>"; };
+		740FF64D25C56BA300B01FB8 /* TodoDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailProtocols.swift; sourceTree = "<group>"; };
+		740FF64E25C56BA300B01FB8 /* TodoDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailInteractor.swift; sourceTree = "<group>"; };
+		740FF64F25C56BA300B01FB8 /* TodoDetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailItem.swift; sourceTree = "<group>"; };
+		740FF65925C5725500B01FB8 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		740FF65C25C578BA00B01FB8 /* InputCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCheckboxView.swift; sourceTree = "<group>"; };
+		740FF66025C5B57B00B01FB8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		745BA72F25C30E2A00AB374B /* Todo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		745BA73225C30E2A00AB374B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		745BA73425C30E2A00AB374B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		745BA73625C30E2A00AB374B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		745BA73925C30E2A00AB374B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		745BA73B25C30E2B00AB374B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745BA73E25C30E2B00AB374B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		745BA74025C30E2B00AB374B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745BA76125C3123C00AB374B /* LandingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPresenter.swift; sourceTree = "<group>"; };
+		745BA76225C3123C00AB374B /* LandingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingRouter.swift; sourceTree = "<group>"; };
+		745BA76325C3123C00AB374B /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		745BA76425C3123C00AB374B /* LandingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingProtocols.swift; sourceTree = "<group>"; };
+		745BA76525C3123C00AB374B /* LandingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingInteractor.swift; sourceTree = "<group>"; };
+		745BA76625C3123C00AB374B /* LandingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingItem.swift; sourceTree = "<group>"; };
+		7487364F25C3161300F94DCE /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +94,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745BA74F25C3119700AB374B /* Alamofire in Frameworks */,
+				740FF5E325C469EF00B01FB8 /* IQKeyboardManagerSwift in Frameworks */,
+				740FF61B25C52E5600B01FB8 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		740FF5E525C46E2C00B01FB8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				740FF5E625C46E4E00B01FB8 /* UIView+Constraints.swift */,
+				740FF64225C54EE400B01FB8 /* UIViewController+Alert.swift */,
+				740FF65925C5725500B01FB8 /* Date.swift */,
+				740FF66025C5B57B00B01FB8 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		740FF61125C4810200B01FB8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				740FF61225C4811400B01FB8 /* AppDelegate+Keyboard.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		740FF62925C5459200B01FB8 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				740FF64825C569F200B01FB8 /* Detail */,
+				740FF62A25C545AE00B01FB8 /* List */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		740FF62A25C545AE00B01FB8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				740FF62F25C545C200B01FB8 /* TodoListInteractor.swift */,
+				740FF63025C545C200B01FB8 /* TodoListItem.swift */,
+				740FF62B25C545C200B01FB8 /* TodoListPresenter.swift */,
+				740FF62E25C545C200B01FB8 /* TodoListProtocols.swift */,
+				740FF62D25C545C200B01FB8 /* TodoListViewController.swift */,
+				740FF62C25C545C200B01FB8 /* TodoListRouter.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		740FF64825C569F200B01FB8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				740FF64E25C56BA300B01FB8 /* TodoDetailInteractor.swift */,
+				740FF64F25C56BA300B01FB8 /* TodoDetailItem.swift */,
+				740FF64A25C56BA300B01FB8 /* TodoDetailPresenter.swift */,
+				740FF64D25C56BA300B01FB8 /* TodoDetailProtocols.swift */,
+				740FF64C25C56BA300B01FB8 /* TodoDetailViewController.swift */,
+				740FF64B25C56BA300B01FB8 /* TodoDetailRouter.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		745BA72625C30E2A00AB374B = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +176,87 @@
 		745BA73125C30E2A00AB374B /* Todo App */ = {
 			isa = PBXGroup;
 			children = (
+				745BA76F25C312EB00AB374B /* App */,
+				745BA74C25C310EE00AB374B /* Service */,
+				740FF5E525C46E2C00B01FB8 /* Extension */,
+				7487364D25C315BD00F94DCE /* Views */,
+				745BA74B25C310C900AB374B /* Scenes */,
+				745BA77025C3130000AB374B /* Resource */,
+			);
+			path = "Todo App";
+			sourceTree = "<group>";
+		};
+		745BA74B25C310C900AB374B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				740FF62925C5459200B01FB8 /* Todo */,
+				745BA75125C311F200AB374B /* Landing */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		745BA74C25C310EE00AB374B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				740FF61625C516DD00B01FB8 /* Service.swift */,
+				740FF62425C53EA400B01FB8 /* KeychainAccess.swift */,
+				740FF63B25C54C6600B01FB8 /* NVActivityIndicatorView.swift */,
+				740FF63E25C54CEE00B01FB8 /* Loading.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		745BA75125C311F200AB374B /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				745BA76125C3123C00AB374B /* LandingPresenter.swift */,
+				745BA76225C3123C00AB374B /* LandingRouter.swift */,
+				745BA76325C3123C00AB374B /* LandingViewController.swift */,
+				745BA76425C3123C00AB374B /* LandingProtocols.swift */,
+				745BA76525C3123C00AB374B /* LandingInteractor.swift */,
+				745BA76625C3123C00AB374B /* LandingItem.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		745BA76F25C312EB00AB374B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				740FF61125C4810200B01FB8 /* Delegate */,
 				745BA73225C30E2A00AB374B /* AppDelegate.swift */,
 				745BA73425C30E2A00AB374B /* SceneDelegate.swift */,
-				745BA73625C30E2A00AB374B /* ViewController.swift */,
-				745BA73825C30E2A00AB374B /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		745BA77025C3130000AB374B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				745BA73B25C30E2B00AB374B /* Assets.xcassets */,
 				745BA73D25C30E2B00AB374B /* LaunchScreen.storyboard */,
 				745BA74025C30E2B00AB374B /* Info.plist */,
 			);
-			path = "Todo App";
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7487364D25C315BD00F94DCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7487364E25C315DF00F94DCE /* Global */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7487364E25C315DF00F94DCE /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				7487364F25C3161300F94DCE /* View.swift */,
+				740FF5DE25C469AD00B01FB8 /* InputTextfieldView.swift */,
+				740FF65C25C578BA00B01FB8 /* InputCheckboxView.swift */,
+				740FF5E925C46F5800B01FB8 /* ScrollView.swift */,
+				740FF60E25C47CA100B01FB8 /* PaddingTextfield.swift */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +275,11 @@
 			dependencies = (
 			);
 			name = "Todo App";
+			packageProductDependencies = (
+				745BA74E25C3119700AB374B /* Alamofire */,
+				740FF5E225C469EF00B01FB8 /* IQKeyboardManagerSwift */,
+				740FF61A25C52E5600B01FB8 /* KeychainAccess */,
+			);
 			productName = "Todo App";
 			productReference = 745BA72F25C30E2A00AB374B /* Todo App.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +307,11 @@
 				Base,
 			);
 			mainGroup = 745BA72625C30E2A00AB374B;
+			packageReferences = (
+				745BA74D25C3119700AB374B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				740FF5E125C469EF00B01FB8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				740FF61925C52E5600B01FB8 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 745BA73025C30E2A00AB374B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +328,6 @@
 			files = (
 				745BA73F25C30E2B00AB374B /* LaunchScreen.storyboard in Resources */,
 				745BA73C25C30E2B00AB374B /* Assets.xcassets in Resources */,
-				745BA73A25C30E2A00AB374B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +338,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				745BA73725C30E2A00AB374B /* ViewController.swift in Sources */,
+				740FF65325C56BA300B01FB8 /* TodoDetailProtocols.swift in Sources */,
+				740FF62525C53EA400B01FB8 /* KeychainAccess.swift in Sources */,
+				745BA76A25C3123C00AB374B /* LandingProtocols.swift in Sources */,
+				740FF65A25C5725500B01FB8 /* Date.swift in Sources */,
+				745BA76B25C3123C00AB374B /* LandingInteractor.swift in Sources */,
+				740FF61725C516DD00B01FB8 /* Service.swift in Sources */,
+				745BA76825C3123C00AB374B /* LandingRouter.swift in Sources */,
+				740FF64325C54EE400B01FB8 /* UIViewController+Alert.swift in Sources */,
+				745BA76C25C3123C00AB374B /* LandingItem.swift in Sources */,
+				740FF63225C545C200B01FB8 /* TodoListRouter.swift in Sources */,
+				740FF63C25C54C6600B01FB8 /* NVActivityIndicatorView.swift in Sources */,
+				740FF65525C56BA300B01FB8 /* TodoDetailItem.swift in Sources */,
 				745BA73325C30E2A00AB374B /* AppDelegate.swift in Sources */,
+				740FF65425C56BA300B01FB8 /* TodoDetailInteractor.swift in Sources */,
+				740FF66125C5B57B00B01FB8 /* String.swift in Sources */,
+				740FF5EA25C46F5800B01FB8 /* ScrollView.swift in Sources */,
+				740FF60F25C47CA100B01FB8 /* PaddingTextfield.swift in Sources */,
+				740FF61325C4811400B01FB8 /* AppDelegate+Keyboard.swift in Sources */,
+				740FF65225C56BA300B01FB8 /* TodoDetailViewController.swift in Sources */,
+				7487365025C3161300F94DCE /* View.swift in Sources */,
+				745BA76725C3123C00AB374B /* LandingPresenter.swift in Sources */,
+				740FF63425C545C200B01FB8 /* TodoListProtocols.swift in Sources */,
+				740FF63625C545C200B01FB8 /* TodoListItem.swift in Sources */,
+				740FF65125C56BA300B01FB8 /* TodoDetailRouter.swift in Sources */,
+				740FF5DF25C469AD00B01FB8 /* InputTextfieldView.swift in Sources */,
+				745BA76925C3123C00AB374B /* LandingViewController.swift in Sources */,
+				740FF65025C56BA300B01FB8 /* TodoDetailPresenter.swift in Sources */,
+				740FF63325C545C200B01FB8 /* TodoListViewController.swift in Sources */,
+				740FF65D25C578BA00B01FB8 /* InputCheckboxView.swift in Sources */,
+				740FF63125C545C200B01FB8 /* TodoListPresenter.swift in Sources */,
+				740FF5E725C46E4E00B01FB8 /* UIView+Constraints.swift in Sources */,
+				740FF63525C545C200B01FB8 /* TodoListInteractor.swift in Sources */,
+				740FF63F25C54CEE00B01FB8 /* Loading.swift in Sources */,
 				745BA73525C30E2A00AB374B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +378,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		745BA73825C30E2A00AB374B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				745BA73925C30E2A00AB374B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		745BA73D25C30E2B00AB374B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +512,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZWQ5R4BVE;
-				INFOPLIST_FILE = "Todo App/Info.plist";
+				INFOPLIST_FILE = "Todo App/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +532,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZWQ5R4BVE;
-				INFOPLIST_FILE = "Todo App/Info.plist";
+				INFOPLIST_FILE = "Todo App/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +567,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		740FF5E125C469EF00B01FB8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+		740FF61925C52E5600B01FB8 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+		745BA74D25C3119700AB374B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		740FF5E225C469EF00B01FB8 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 740FF5E125C469EF00B01FB8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		740FF61A25C52E5600B01FB8 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 740FF61925C52E5600B01FB8 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		745BA74E25C3119700AB374B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 745BA74D25C3119700AB374B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 745BA72725C30E2A00AB374B /* Project object */;
 }
